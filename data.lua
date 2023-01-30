@@ -1,4 +1,6 @@
-require "__X-Logistics__/prototypes/greenhouse"
+if mods["just-another-greenhouse"] then
+  require "__X-Logistics__/prototypes/greenhouse"
+end
 require "__X-Logistics__/prototypes/recipe"
 require "__X-Logistics__/prototypes/shallow-water"
 require "__X-Logistics__/prototypes/landfill"
