@@ -1,6 +1,9 @@
 local inventory_blacklist = {
   ["broken_droid"] = true,  -- Science droids
   ["droid_work_station"] = true,
+  ["se-rocket-launch-pad"] = true,
+  ["se-rocket-launch-pad-tank"] = true,
+  ["se-rocket-landing-pad"] = true,
 }
 
 local function divide_inventory_size(prototype, amount)
