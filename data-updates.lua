@@ -10,6 +10,7 @@ if mods["underwater-pipes"] then
   }
 end
 
+--[[
 -- Remove water-tile from collision check so that player can exit onto shallow water
 if mods["cargo-ships"] then
   local collision_mask = data.raw["simple-entity-with-force"]["tile_player_test_item"].collision_mask
@@ -21,3 +22,4 @@ if mods["cargo-ships"] then
   end
   table.insert(collision_mask, "train-layer")
 end
+]]
