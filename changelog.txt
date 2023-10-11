@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.13
+Date: 20 February 2023
+  Changes:
+    - Refactor shallow vs deep landfill
+    - Make 'Just Another Greenhouse' optional so K2's can be used instead
+---------------------------------------------------------------------------------------------------
 Version: 1.0.12
 Date: 14 January 2022
   Changes:
@@ -37,7 +43,7 @@ Date: 29 November 2022
     - Removed duplicate info icon in mod settings
     - Wood production increased by ~5x:
       - Basic tree growth: time required x0.2, seed excess x2
-      - Accelerated tree growth: time required x0.2, water input 110 -> 200, wood output 50 -> 80, 
+      - Accelerated tree growth: time required x0.2, water input 110 -> 200, wood output 50 -> 80,
       - Tree breeding: time required x0.3, seed excess x1.25
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.7
@@ -65,7 +71,7 @@ Date: 7 June 2022
   Changes:
     - Added 2 wood to landfill recipe and renamed to 'Shallow landfill'
     - Changed deep landfill recipe to 15 shallow landfill, 15 concrete and 15 iron sticks (from 400 stone)
-    - Moved deep landfill to its own technology (requires blue science) 
+    - Moved deep landfill to its own technology (requires blue science)
   Compatibility:
     - Fixed crash on load with Transport Drones
     - Removed transport drone request depots being able to request packed crates (but balance concerns remain)
