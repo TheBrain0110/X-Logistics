@@ -1,9 +1,9 @@
 {
-  "name": "X-Logistics",
+  "name": "X-Logistics-Legacy",
   "version": "1.0.14",
-  "title": "X-Logistics",
-  "author": "Xorimuth",
-  "description": "Long-distance logistics overhaul.\nPack intermediate products into crates before transporting them using combinations of trains, cargo ships, and even spidertrons!\nAlso includes island/continent terrain generation, shallow water, and an expensive variant of landfill for deeper water.",
+  "title": "X-Logistics Legacy",
+  "author": "Xorimuth, forked by TheBrain0110",
+  "description": "A fork of the deprecated X-Logistics mod, before it became Freight Forwarding. Mostly for compatability for an old map that was started before the transition.",
   "factorio_version": "1.1",
   "dependencies": [
     "base > 1.1.60",
