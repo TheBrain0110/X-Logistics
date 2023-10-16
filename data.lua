@@ -1,11 +1,11 @@
 if mods["just-another-greenhouse"] then
-  require "__X-Logistics__/prototypes/greenhouse"
+  require "__X-Logistics-Legacy__/prototypes/greenhouse"
 end
-require "__X-Logistics__/prototypes/recipe"
-require "__X-Logistics__/prototypes/shallow-water"
-require "__X-Logistics__/prototypes/landfill"
-require "__X-Logistics__/prototypes/crating-machine"
-require "__X-Logistics__/prototypes/map-gen-presets"
+require "__X-Logistics-Legacy__/prototypes/recipe"
+require "__X-Logistics-Legacy__/prototypes/shallow-water"
+require "__X-Logistics-Legacy__/prototypes/landfill"
+require "__X-Logistics-Legacy__/prototypes/crating-machine"
+require "__X-Logistics-Legacy__/prototypes/map-gen-presets"
 
 local radar = data.raw["radar"]["radar"]
 radar.max_distance_of_sector_revealed = 20

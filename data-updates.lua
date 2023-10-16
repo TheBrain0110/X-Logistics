@@ -1,4 +1,4 @@
-require "__X-Logistics__/prototypes/inventory-sizes"
+require "__X-Logistics-Legacy__/prototypes/inventory-sizes"
 
 -- Revert bztitanium's changes to underwater pipes
 if mods["underwater-pipes"] then
